@@ -1,9 +1,10 @@
 ---
+
 # 📌 Modelo de Base de Datos - Sistema Bancario
 
 
 
-Este repositorio contiene el diseño de un modelo de base de datos desarrollado en Power Designer, abarcando sus tres niveles: Conceptual, Lógico y Físico.  
+Este repositorio contiene el diseño de un modelo de base de datos desarrollado en Power Designer, abarcando sus tres niveles -> Conceptual, Lógico y Físico.  
 
 El objetivo principal es gestionar la información de usuarios, roles, cuentas bancarias y transacciones dentro de un sistema bancario.
 
