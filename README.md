@@ -22,7 +22,7 @@ El objetivo principal es gestionar la información de \*\*usuarios, roles, cuent
 
 
 
-\- 📐 \*\*Modelo Lógico\*\*  
+\- 📐 Modelo Lógico
 
 &nbsp; - Traducción del modelo conceptual a un esquema lógico compatible con un SGBD relacional.  
 
@@ -30,7 +30,7 @@ El objetivo principal es gestionar la información de \*\*usuarios, roles, cuent
 
 
 
-\- 🏗️ \*\*Modelo Físico (Oracle 11g)\*\*  
+\- 🏗️ Modelo Físico (Oracle 11g)
 
 &nbsp; - Definición final de las tablas, columnas, llaves primarias, foráneas y restricciones.  
 
@@ -46,7 +46,7 @@ Psdt: Cada Modelo cuenta con su propio reporte generado.
 
 
 
-\ 1. \*\*USERS\*\*
+1. USERS
 
 Contiene la información básica de los usuarios.  
 
@@ -80,7 +80,7 @@ PASSWORD   VARCHAR2(200)       NOT NULL
 
 
 
-\ 2. \*\*ROLES\*\*
+2. ROLES
 
 
 
@@ -112,7 +112,7 @@ NAME   VARCHAR2(50)     NOT NULL, UNIQUE
 
 
 
-\ 3. \*\*USER\_ROLES\*\*
+3. USER\_ROLES
 
 
 
@@ -146,7 +146,7 @@ ROLE\_ID   NUMBER   PK, FK → ROLES(ID)
 
 
 
-\ 4. \*\*BANK\_ACCOUNTS\*\*
+4. BANK\_ACCOUNTS
 
 
 
@@ -188,7 +188,7 @@ STATUS          VARCHAR2(20)    DEFAULT 'ACTIVE'
 
 
 
-\ 5. \*\*TRANSACTIONS\*\*
+5. TRANSACTIONS
 
 
 
@@ -232,7 +232,7 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-\ 🔗 Relaciones principales
+🔗 Relaciones principales
 
 
 
