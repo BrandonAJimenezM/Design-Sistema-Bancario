@@ -2,9 +2,9 @@
 
 
 
-Este repositorio contiene el diseño de un modelo de base de datos desarrollado en \*\*Power Designer\*\*, abarcando sus tres niveles: \*\*Conceptual, Lógico y Físico\*\*.  
+Este repositorio contiene el diseño de un modelo de base de datos desarrollado en \*Power Designer\*, abarcando sus tres niveles: Conceptual, Lógico y Físico.  
 
-El objetivo principal es gestionar la información de \*\*usuarios, roles, cuentas bancarias y transacciones\*\* dentro de un sistema bancario.
+El objetivo principal es gestionar la información de usuarios, roles, cuentas bancarias y transacciones dentro de un sistema bancario.
 
 
 
@@ -68,11 +68,11 @@ PASSWORD   VARCHAR2(200)       NOT NULL
 
 
 
-\* `PK\_USERS` → Llave primaria en `ID`
+`PK\_USERS` → Llave primaria en `ID`
 
-\* `AK\_KEY\_2\_USERS` → `USERNAME` único
+`AK\_KEY\_2\_USERS` → `USERNAME` único
 
-\* `AK\_KEY\_3\_USERS` → `EMAIL` único
+`AK\_KEY\_3\_USERS` → `EMAIL` único
 
 
 
@@ -102,9 +102,9 @@ NAME   VARCHAR2(50)     NOT NULL, UNIQUE
 
 
 
-\* `PK\_ROLES` → Llave primaria en `ID`
+`PK\_ROLES` → Llave primaria en `ID`
 
-\* `AK\_KEY\_2\_ROLES` → `NAME` único
+`AK\_KEY\_2\_ROLES` → `NAME` único
 
 
 
@@ -134,11 +134,11 @@ ROLE\_ID   NUMBER   PK, FK → ROLES(ID)
 
 
 
-\* `PK\_USER\_ROLES` → Llave primaria compuesta `(USER\_ID, ROLE\_ID)`
+`PK\_USER\_ROLES` → Llave primaria compuesta `(USER\_ID, ROLE\_ID)`
 
-\* `FK\_USERROLES\_USER` → FK a `USERS(ID)`
+`FK\_USERROLES\_USER` → FK a `USERS(ID)`
 
-\* `FK\_USERROLES\_ROLE` → FK a `ROLES(ID)`
+`FK\_USERROLES\_ROLE` → FK a `ROLES(ID)`
 
 
 
@@ -176,11 +176,11 @@ STATUS          VARCHAR2(20)    DEFAULT 'ACTIVE'
 
 
 
-\* `PK\_BANK\_ACCOUNTS` → Llave primaria en `ID`
+`PK\_BANK\_ACCOUNTS` → Llave primaria en `ID`
 
-\* `AK\_KEY\_2\_BANK\_ACC` → `ACCOUNT\_NUMBER` único
+`AK\_KEY\_2\_BANK\_ACC` → `ACCOUNT\_NUMBER` único
 
-\* `FK\_ACCOUNT\_USER` → FK a `USERS(ID)`
+`FK\_ACCOUNT\_USER` → FK a `USERS(ID)`
 
 
 
@@ -220,11 +220,11 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-\* `PK\_TRANSACTIONS` → Llave primaria en `ID`
+`PK\_TRANSACTIONS` → Llave primaria en `ID`
 
-\* `FK\_TRANS\_FROM` → FK a `BANK\_ACCOUNTS(ID)`
+`FK\_TRANS\_FROM` → FK a `BANK\_ACCOUNTS(ID)`
 
-\* `FK\_TRANS\_TO` → FK a `BANK\_ACCOUNTS(ID)`
+`FK\_TRANS\_TO` → FK a `BANK\_ACCOUNTS(ID)`
 
 
 
@@ -236,11 +236,11 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-\* Un \*\*usuario\*\* puede tener \*\*múltiples roles\*\* (relación N:M con `ROLES`).
+Un usuario puede tener múltiples roles (relación N:M con `ROLES`).
 
-\* Un \*\*usuario\*\* puede tener \*\*múltiples cuentas bancarias\*\* (1:N).
+Un usuario puede tener múltiples cuentas bancarias (1:N).
 
-\* Una \*\*cuenta bancaria\*\* puede participar en \*\*múltiples transacciones\*\* (1:N como origen/destino).
+Una cuenta bancaria puede participar en múltiples transacciones (1:N como origen/destino).
 
 
 
@@ -252,11 +252,11 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-\* Implementación de auditoría de accesos.
+Implementación de auditoría de accesos.
 
-\* Manejo de historial de roles.
+Manejo de historial de roles.
 
-\* Inclusión de más entidades (ej: sucursales, tarjetas de crédito).
+Inclusión de más entidades (ej: sucursales, tarjetas de crédito).
 
 
 
@@ -272,7 +272,7 @@ Brandon Jiménez
 
 
 
-Este modelo fue diseñado en \*\*Power Designer\*\* como práctica de modelado de bases de datos, siguiendo el ciclo completo: \*\*Conceptual → Lógico → Físico\*\*, y posteriormente implementado en \*\*Oracle 11g\*\*.
+Este modelo fue diseñado en Power Designer como práctica de modelado de bases de datos, siguiendo el ciclo completo: Conceptual → Lógico → Físico, y posteriormente implementado en \*Oracle 11g\*.
 
 
 
