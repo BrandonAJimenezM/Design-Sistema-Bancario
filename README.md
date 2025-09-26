@@ -14,7 +14,7 @@ El objetivo principal es gestionar la información de \*\*usuarios, roles, cuent
 
 🗂️ Contenido
 
-\- 📖 \*\*Modelo Conceptual\*\*  
+\- 📖 Modelo Conceptual
 
 &nbsp; - Representación abstracta de las entidades principales y sus relaciones.  
 
