@@ -1,4 +1,5 @@
-📌 Modelo de Base de Datos - Sistema Bancario
+---
+# 📌 Modelo de Base de Datos - Sistema Bancario
 
 
 
@@ -12,7 +13,7 @@ El objetivo principal es gestionar la información de usuarios, roles, cuentas b
 
 
 
-🗂️ Contenido
+##🗂️ Contenido
 
 \- 📖 Modelo Conceptual
 
@@ -42,7 +43,7 @@ Psdt: Cada Modelo cuenta con su propio reporte generado.
 
 
 
-📊 Tablas y Descripción
+## 📊 Tablas y Descripción
 
 
 
@@ -232,7 +233,7 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-🔗 Relaciones principales
+## 🔗 Relaciones principales
 
 
 
@@ -248,7 +249,7 @@ Una cuenta bancaria puede participar en múltiples transacciones (1:N como orige
 
 
 
-🚀 Posibles mejoras
+## 🚀 Posibles mejoras
 
 
 
@@ -264,7 +265,7 @@ Inclusión de más entidades (ej: sucursales, tarjetas de crédito).
 
 
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 
 
