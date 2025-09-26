@@ -2,7 +2,7 @@
 
 
 
-Este repositorio contiene el diseño de un modelo de base de datos desarrollado en \*Power Designer\*, abarcando sus tres niveles: Conceptual, Lógico y Físico.  
+Este repositorio contiene el diseño de un modelo de base de datos desarrollado en Power Designer, abarcando sus tres niveles: Conceptual, Lógico y Físico.  
 
 El objetivo principal es gestionar la información de usuarios, roles, cuentas bancarias y transacciones dentro de un sistema bancario.
 
@@ -272,7 +272,7 @@ Brandon Jiménez
 
 
 
-Este modelo fue diseñado en Power Designer como práctica de modelado de bases de datos, siguiendo el ciclo completo: Conceptual → Lógico → Físico, y posteriormente implementado en \*Oracle 11g\*.
+Este modelo fue diseñado en Power Designer como práctica de modelado de bases de datos, siguiendo el ciclo completo: Conceptual → Lógico → Físico, y posteriormente implementado en Oracle 11g.
 
 
 
