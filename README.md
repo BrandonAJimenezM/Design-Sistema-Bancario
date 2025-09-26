@@ -1,4 +1,4 @@
-\📌 Modelo de Base de Datos - Sistema Bancario
+📌 Modelo de Base de Datos - Sistema Bancario
 
 
 
@@ -12,7 +12,7 @@ El objetivo principal es gestionar la información de \*\*usuarios, roles, cuent
 
 
 
-\ 🗂️ Contenido
+🗂️ Contenido
 
 \- 📖 \*\*Modelo Conceptual\*\*  
 
@@ -42,7 +42,7 @@ Psdt: Cada Modelo cuenta con su propio reporte generado.
 
 
 
-\ 📊 Tablas y Descripción
+📊 Tablas y Descripción
 
 
 
@@ -248,7 +248,7 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-\ 🚀 Posibles mejoras
+🚀 Posibles mejoras
 
 
 
@@ -264,7 +264,7 @@ CREATED\_AT    TIMESTAMP(6)    DEFAULT SYSTIMESTAMP
 
 
 
-\ 👨‍💻 Autor
+👨‍💻 Autor
 
 
 
